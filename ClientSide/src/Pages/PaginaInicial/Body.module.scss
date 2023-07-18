@@ -1,0 +1,74 @@
+@use '../../App.module.scss';
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    width: 100%;   
+    padding: 3em;
+    padding-left: 10em;
+    padding-right: 10em;
+    display: flex;
+ 
+}
+
+.divisorDespensa{
+    width: 25em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 1em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textoDespensa{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.divisorCardBotao{
+    display:flex;
+    height: 92%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.botao{
+    background-color: App.$cinza;
+    margin-top: 15px;
+}
+
+.divisorAddIngredientes{
+    background-color: App.$branco;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+
+}
+
+.adicionarIngredientes{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.searchBar{
+    width: 100%;
+}
+
+.cardsIngredientes{
+    display: flex;
+    height: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+    overflow: auto;
+}
+
+.cardsDespensa {
+    overflow: auto;
+    height: 85%;
+}

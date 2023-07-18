@@ -1,0 +1,22 @@
+@use '../../App.module.scss';
+
+.pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    height: 89.9vh;
+    width: 60em;
+    gap: 1em;
+}
+
+.cardsReceitasEncontradas{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}

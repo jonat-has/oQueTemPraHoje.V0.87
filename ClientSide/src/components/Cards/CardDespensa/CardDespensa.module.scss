@@ -1,0 +1,52 @@
+@use "../../../App.module.scss";
+
+.principal{
+    display: flex;
+    height: 5em;
+    margin: 1em;
+    background-color:App.$cinza;
+    border-radius: 10px;
+    padding: 5px 3px 5px 10px;
+}
+
+.descricao {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloCard{
+    font-weight: 600;
+}
+
+.quantidade{
+    display: flex;
+    
+}
+
+.quantidadeTexto{
+    font-weight: 600;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.input {
+    width: 70%;
+}
+
+.lixeira, .lixeira:hover{
+    height: 16px;
+    width: 24px;
+    cursor: pointer;
+}
